@@ -17,13 +17,13 @@ const BlogCard = (props) => {
                 </div>
                 <div className="blogCard-footer">
                     <div className="postDetails">
-                        <a className="author">
+                        <div className="author">
                             <img src={avatar} alt="author" />
                             <div className="authorDetails">
                                 <div className="name">Alexander Gilmanov</div>
                                 <div className="position">CEO, SaaS specialist</div>
                             </div>
-                        </a>
+                        </div>
                         <div className="timing">
 
                             <small><span >9 min</span> read</small>

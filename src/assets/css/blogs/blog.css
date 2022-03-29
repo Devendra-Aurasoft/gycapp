@@ -1,42 +1,3 @@
-.video-cards {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px 0;
-}
-
-.video-list .main-heading {
-    margin: 0px !important;
-    padding: 30px 0px 0px 0px;
-}
-
-.video-cards .video-container {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%;
-}
-
-.video-cards .video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-}
-
-.video-content {
-    padding: 10px 15px;
-}
-
-.video-cards .readmore {
-    text-decoration: none;
-    color: #2f2f7c;
-    font-size: 1rem !important;
-    font-weight: 700;
-}
-
-
 /*----------------------- Single blog Css Start --------------------  */
 
 .sigle-blog .post-header {
@@ -52,6 +13,10 @@
     align-items: center;
 }
 
+.sigle-blog .post-header p {
+    color: #313D3F;
+}
+
 .sigle-blog .post-header .author img {
     width: 60px;
     height: 60px;
@@ -61,14 +26,12 @@
 
 .sigle-blog .post-header .name {
     color: #2f2f7c;
-    line-height: 1.2;
     font-size: 1.25rem;
     font-weight: 600;
 }
 
 .sigle-blog .authorDetails .position {
     font-size: 1rem;
-    line-height: 1.5;
     color: #313D3F;
 }
 
@@ -133,6 +96,20 @@
     font-weight: 800;
     color: #127e3f;
     font-size: 25px;
+}
+
+@media screen and (max-width:425px) {
+    .sigle-blog .post-header {
+        align-items: normal;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .sigle-blog .post-header .divider {
+        display: none;
+    }
+    .sigle-blog .post-header .author {
+        margin: 10px 0;
+    }
 }
 
 

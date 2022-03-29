@@ -26,7 +26,7 @@ const ScrollButton = () => {
 
     return (
         <>
-            {visible && <span className='scroll-to-top' onClick={scrollToTop}><i class="fa-solid fa-arrow-up"></i></span>}
+            {visible && <span className='scroll-to-top' onClick={scrollToTop}><i className="fa-solid fa-arrow-up"></i></span>}
 
 
         </>

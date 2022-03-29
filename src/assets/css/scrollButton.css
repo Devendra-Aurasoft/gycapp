@@ -29,3 +29,13 @@
         align-items: stretch;
     }
 }
+
+@media screen and (max-width:425px) {
+    .scroll-to-top {
+        font-size: 20px;
+        color: white;
+        width: 40px;
+        height: 40px;
+        display: flex;
+    }
+}

@@ -17,6 +17,7 @@ import "../assets/css/colleges/collegelist.css"
 import '../assets/css/footer.css';
 import "../assets/css/gdpi/faq.css"
 import "../assets/css/scrollButton.css"
+import "../assets/css/gdpi/herobanner.css"
 
 
 const Style = () => {

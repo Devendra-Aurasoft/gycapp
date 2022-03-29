@@ -64,13 +64,13 @@ Green: #127e3f */
     margin: auto;
 }
 
-.video-slider .video-container {
+.video-container {
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
 }
 
-.video-slider .video {
+.video {
     position: absolute;
     top: 0;
     left: 0;

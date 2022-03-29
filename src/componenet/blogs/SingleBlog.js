@@ -15,13 +15,13 @@ const SingleBlog = () => {
                 <div className="row">
                     <div className="col-12">
                         <div className="post-header">
-                            <a className="author">
+                            <div className="author">
                                 <img src={avatar} alt="author" />
                                 <div className="authorDetails">
                                     <div className="name">Alexander Gilmanov</div>
                                     <div className="position">CEO, SaaS specialist</div>
                                 </div>
-                            </a>
+                            </div>
                             <span className="divider">|</span>
                             <p><span >9 min</span> read</p>
                             <span className="divider">|</span>
@@ -83,7 +83,7 @@ const SingleBlog = () => {
                                     <div className='col-3 sharetext'>
                                         <span className="Title">Share:</span>
                                     </div>
-                                    <div className='col-6 socialicons'>
+                                    <div className='col-9 col-md-6 socialicons'>
                                         <a href="" className='facebook'>
                                             <i className="fa-brands fa-facebook-f"></i>
                                         </a>
