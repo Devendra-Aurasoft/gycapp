@@ -1,0 +1,217 @@
+.ftco-footer {
+  font-size: 14px;
+  background: #2f2f7c;
+  padding-bottom: 0rem;
+  padding-top: 4rem;
+  text-align: left;
+}
+.fa-heart {
+  color: red;
+}
+.ftco-footer .ftco-footer-widget {
+  width: 100%;
+  display: block;
+}
+.ftco-footer .ftco-footer-widget h2 {
+  font-weight: normal;
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.ftco-footer .ftco-footer-widget .logo {
+  color: #ffa500;
+}
+.ftco-footer .ftco-footer-widget .logo span {
+  color: #fda638;
+}
+.ftco-footer .ftco-footer-widget ul li a span {
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+}
+.ftco-footer .ftco-footer-widget .btn-primary {
+  background: #fff !important;
+  border: 2px solid #fff !important;
+}
+.ftco-footer .ftco-footer-widget .btn-primary:hover {
+  background: #fff;
+  border: 2px solid #fff !important;
+}
+.ftco-footer p {
+  color: rgba(255, 255, 255, 0.7);
+}
+.ftco-footer a {
+  color: rgba(255, 255, 255, 0.7);
+}
+.ftco-footer a:hover {
+  color: #fff;
+}
+.ftco-footer .ftco-heading-2 {
+  font-size: 17px;
+  font-weight: 400;
+  color: #ffa500 !important;
+}
+.ftco-footer .categories li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.ftco-footer .categories li a span {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.ftco-footer .subscribe-form .form-group {
+  position: relative;
+  margin-bottom: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+}
+.ftco-footer-widget h2 {
+  color: #ffa500 !important;
+}
+.ftco-footer .subscribe-form .form-group input {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: none;
+  color: rgba(255, 255, 255, 0.7) !important;
+  font-size: 16px;
+}
+.ftco-footer .subscribe-form .form-group input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.ftco-footer .subscribe-form .form-group input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.ftco-footer .subscribe-form .form-group input:-ms-input-placeholder {
+  /* IE 0+ */
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.ftco-footer .subscribe-form .form-group input:-moz-placeholder {
+  /* Firefox 18- */
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.ftco-footer .subscribe-form .form-group .submit {
+  color: #fff !important;
+  font-size: 16px;
+  background: #ffa500 !important;
+  border: none !important;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.ftco-footer .subscribe-form .form-group .submit:hover {
+  cursor: pointer;
+
+  background: #127e3f !important;
+}
+.ftco-footer .subscribe-form .icon {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  /* color: rgba(255, 255, 255, 0.8); */
+
+  color: #ffa500;
+  /* transition: all 0.3s ease; */
+  transition: 5s;
+}
+.ftco-footer .subscribe-form:hover .icon {
+  color: #127e3f;
+}
+.ftco-footer .block-21 .text .heading {
+  font-weight: 400;
+  font-size: 16px;
+}
+.ftco-footer .block-21 .text .heading a {
+  color: rgba(255, 255, 255, 0.9);
+}
+.ftco-footer .block-21 .text .heading a:hover,
+.ftco-footer .block-21 .text .heading a:active,
+.ftco-footer .block-21 .text .heading a:focus {
+  color: #ffa500;
+}
+.ftco-footer .block-21 .text .meta > div {
+  display: inline-block;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+
+.ftco-footer-social li {
+  list-style: none;
+  margin: 0 10px 0 0;
+  display: inline-block;
+}
+.ftco-footer-social li a {
+  height: 40px;
+  width: 40px;
+  display: block;
+  float: left;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 50%;
+  position: relative;
+  color: #ffa500;
+  /* transform: 7ms; */
+  transition: 1s;
+}
+.ftco-footer-social li a .fa-brands {
+  position: absolute;
+  font-size: 25px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.ftco-footer-social li a:hover {
+  color: #127e3f;
+  margin: 0px 10px 10px 0;
+  height: 30px;
+  width: 30px;
+  padding: 2px !important;
+}
+
+.footer-small-nav > li {
+  display: inline-block;
+}
+.footer-small-nav > li a {
+  margin: 0 10px 10px 0;
+}
+.footer-small-nav > li a:hover,
+.footer-small-nav > li a:focus {
+  color: #fd5f00;
+}
+/* ================================================= */
+/* ===================425=========================== */
+/* ================================================= */
+@media screen and (max-width:425px) {
+  .ftco-footer .ftco-footer-widget h2 {
+    font-weight: normal;
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .ftco-footer {
+    font-size: 14px;
+    background: #2f2f7c;
+    padding-bottom: 0rem;
+    padding-top: 4rem;
+    text-align: center;
+  }
+}
+/* ======================= */

@@ -1,0 +1,52 @@
+/*----------------------- Form Css Start --------------------  */
+
+.input-field {
+    width: 75%;
+    margin: auto;
+    height: 44px;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input::placeholder {
+    color: #127e3f;
+}
+
+.input-error {
+    border-color: red;
+}
+
+.error {
+    text-align: left;
+    color: red;
+    margin: 0px 10px;
+    width: 100%;
+}
+
+input,
+select {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 0.5rem;
+    border-bottom: 2px solid #127e3f;
+    color: #127e3f;
+}
+
+.submit-button {
+    width: 100%;
+    color: #127e3f;
+    border: 2px solid #127e3f;
+    margin: auto;
+}
+
+.submit-button:hover {
+    color: #fff;
+    background-color: #127e3f;
+}
+
+
+/*----------------------- Form Css End --------------------  */

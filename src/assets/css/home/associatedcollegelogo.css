@@ -1,0 +1,32 @@
+#client-section {
+    padding: 40px;
+    position: relative;
+}
+
+#client-section h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #ffa500;
+}
+
+#clients {
+    flex-wrap: wrap;
+}
+
+#clients img {
+    width: 166px;
+    height: 164px;
+    padding: 6px;
+    height: auto;
+}
+
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-item {
+    padding: 34px;
+}

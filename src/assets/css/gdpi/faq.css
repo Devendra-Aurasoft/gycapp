@@ -1,0 +1,16 @@
+.faq {
+    padding: 20px 0;
+}
+
+.faq .question-box {
+    background-color: #2f2f7c;
+}
+
+.faq p {
+    color: white;
+}
+
+.faq .sub-heading,
+.faq .fa-angles-down {
+    color: #ffa500;
+}

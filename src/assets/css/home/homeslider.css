@@ -1,0 +1,237 @@
+#HomeSlider {
+    width: 100%;
+    height: 550px;
+    position: relative;
+    /* top: 10px; */
+    background: black;
+    z-index: -10;
+}
+
+.sliderDiv {
+    z-index: -9;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    background-size: cover;
+    background: url("../../image/home/computrer-with-team.jpg") no-repeat;
+    background-position: 100% 50%;
+    background-size: cover;
+    animation: SliderComputer 25s infinite linear;
+    opacity: 0.5;
+}
+
+
+/* ========================================= */
+
+
+/* ===============HomeSlider_text=========== */
+
+
+/* ========================================= */
+
+.HomeSlider_text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 500px;
+    padding-left: 200px;
+    text-align: left;
+    top: 50px;
+    width: 100%;
+    height: 100%;
+    z-index: 33;
+    color: white !important;
+}
+
+.HomeSlider_text h2 {
+    color: #ffa500;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.HomeSlider_text p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.HomeSlider_text .Home_btn {
+    background: transparent !important;
+    border: 2px solid #ffa500 !important;
+    color: #ffa500 !important;
+    font-size: 20px;
+    width: 150px;
+    padding: 5px;
+    /* border-radius: 5px; */
+    display: block !important;
+}
+
+.HomeSlider_text .Home_btn:hover {
+    background: #ffa500 !important;
+    border-radius: 2px solid #fff !important;
+    color: #fff;
+}
+
+
+/* ================================================= */
+
+
+/* ================1024============================= */
+
+
+/* ================================================= */
+
+@media screen and (max-width: 1024px) {
+    .HomeSlider_text {
+        padding-right: 500px;
+        padding-left: 150px;
+    }
+}
+
+
+/* ================================================= */
+
+
+/* ===================768=========================== */
+
+
+/* ================================================= */
+
+@media screen and (max-width: 768px) {
+    #HomeSlider {
+        width: 100%;
+        height: 400px;
+    }
+    .HomeSlider_text {
+        padding-right: 200px;
+        padding-left: 50px;
+    }
+    .HomeSlider_text h2 {
+        color: #ffa500;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    .HomeSlider_text p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
+
+
+/* ================================================= */
+
+
+/* ===================425=========================== */
+
+
+/* ================================================= */
+
+@media screen and (max-width: 425px) {
+    #HomeSlider {
+        width: 100%;
+        height: 350px;
+    }
+    .HomeSlider_text {
+        padding-right: 100px;
+        padding-left: 20px;
+    }
+    .HomeSlider_text h2 {
+        color: #ffa500;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    .HomeSlider_text p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .HomeSlider_text .Home_btn {
+        background: transparent !important;
+        border: 2px solid #ffa500 !important;
+        color: #ffa500 !important;
+        font-size: 10px;
+        width: 100px;
+        padding: 5px;
+        /* border-radius: 5px; */
+        display: block !important;
+    }
+}
+
+
+/* ================================================= */
+
+
+/* ===================320=========================== */
+
+
+/* ================================================= */
+
+@media screen and (max-width: 320px) {
+    #HomeSlider {
+        width: 100%;
+        height: 320px;
+    }
+    .HomeSlider_text {
+        padding-right: 50px;
+        padding-left: 20px;
+    }
+    .HomeSlider_text h2 {
+        color: #ffa500;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    .HomeSlider_text p {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .HomeSlider_text .Home_btn {
+        background: transparent !important;
+        border: 2px solid #ffa500 !important;
+        color: #ffa500 !important;
+        font-size: 10px;
+        width: 80px;
+        padding: 5px;
+        display: block !important;
+    }
+}
+
+
+/* ==================================================== */
+
+
+/* ==================Responsive End==================== */
+
+
+/* ==================================================== */
+
+@keyframes SliderComputer {
+    0% {
+        background: url("../../image/home/project-enalicece.jpg") no-repeat;
+        background-position: 100% 50%;
+        background-size: cover;
+    }
+    25% {
+        background: url("../../image/home/computer1.jpg") no-repeat;
+        background-position: 100% 50%;
+        background-size: cover;
+    }
+    50% {
+        background: url("../../image/home/computer.jpg") no-repeat;
+        background-position: 100% 50%;
+        background-size: cover;
+    }
+    75% {
+        background: url("../../image/home/computrer-with-team.jpg") no-repeat;
+        background-position: 100% 50%;
+        background-size: cover;
+    }
+    100% {
+        background: url("../../image/home/computer1.jpg") no-repeat;
+        background-position: 100% 50%;
+        background-size: cover;
+    }
+}

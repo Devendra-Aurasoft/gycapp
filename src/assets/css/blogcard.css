@@ -1,0 +1,105 @@
+.blogCard {
+    padding-bottom: 10px;
+    margin: 30px 0;
+}
+
+.blogCard:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 25px 50px 10px, rgba(0, 0, 0, 0.3) 0px 15px 30px 15px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-bottom: 4px solid #2f2f7c;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.3s;
+}
+
+.blogCard .blogCard-header {
+    overflow: hidden;
+    background-color: black;
+    height: 200px;
+}
+
+.blogCard-header img {
+    transition: all 0.5s;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+
+.blogCard-header img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.blogCard .postDetails {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.blogCard .postDetails .author {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blogCard .postDetails .author img {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.blogCard .postDetails .name {
+    color: #2f2f7c;
+    line-height: 1.2;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.blogCard .authorDetails .position {
+    font-size: 0.7rem;
+    line-height: 1.5;
+    color: #313D3F;
+}
+
+.blogCard .postDetails small {
+    opacity: 0.5;
+}
+
+.blogCard .blogCard-body {
+    padding: 0.5rem;
+}
+
+.blogCard .category {
+    text-align: center;
+    padding: .25em .75em;
+    border-radius: 1em;
+    font-size: .75rem;
+    background: linear-gradient(to right, #2f2f7c, #127e3f);
+    color: #fff;
+}
+
+.blogCard .blogCard-body h4 {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #2f2f7c;
+}
+
+.blogCard p {
+    color: black;
+}
+
+.blogCard .divider {
+    font-size: 40px;
+    opacity: 0.1;
+}
+
+.blogCard .blogCard-footer {
+    padding: 0 10px;
+}
+
+.blogCard .timing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
