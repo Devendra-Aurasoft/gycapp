@@ -15,6 +15,7 @@
 
 .sigle-blog .post-header p {
     color: #313D3F;
+    opacity: 0.5;
 }
 
 .sigle-blog .post-header .author img {

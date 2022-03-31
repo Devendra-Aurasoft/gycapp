@@ -14,10 +14,10 @@ const GdpiHeroBanner = () => {
                     </div>
                 </div>
             </section>
-            <section>
+            <section className='pb-3 sample-video'>
                 <div className="container">
                     <h1 className='main-heading'>Sample Video</h1>
-                    <div className='video-container'>
+                    <div className='video-container sample-video'>
                         <iframe className='video' src="https://www.youtube.com/embed/kT7KU1dM6Ps" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     </div>
                 </div>

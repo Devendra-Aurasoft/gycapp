@@ -105,20 +105,20 @@ const SingleBlog = () => {
                 </div>
                 <div className="row">
                     <h6 className="main-heading text-start">You may also like</h6>
-                    <div className="col-md-4">
+                    <div className="col-md-4" data-aos="fade-right">
                         <Link to={'/blog/post'}>
                             <BlogCard collegeImage={blogImage} />
                         </Link>
 
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4" data-aos="flip-left">
                         <Link to={'/blog/post'}>
 
                             <BlogCard collegeImage={blogImage} />
                         </Link>
 
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 " data-aos="fade-right ">
                         <Link to={'/blog/post'}>
 
                             <BlogCard collegeImage={blogImage} />

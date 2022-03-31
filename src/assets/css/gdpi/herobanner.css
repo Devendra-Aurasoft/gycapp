@@ -30,3 +30,7 @@
     color: white;
     text-align: center;
 }
+
+.sample-video .container {
+    width: 60%;
+}

@@ -5,7 +5,7 @@ import { Accordion, AccordionSummary, AccordionDetails, Typography } from '@mui/
 const FAQ = () => {
     return (
         <>
-            <section className='faq '>
+            <section className='bg-light faq '>
                 <div className="container">
                     <h1 className='main-heading'>FAQ's</h1>
                     <Accordion className='question-box'>
