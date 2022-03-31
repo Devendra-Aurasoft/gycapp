@@ -1,5 +1,6 @@
 import React from 'react'
-
+import Header from '../Header'
+import Footer from '../Footer'
 import Counsellors from './Counsellors'
 import Director from './Director'
 import Testimonials from '../home/Testimonials '
@@ -7,6 +8,8 @@ import img from '../../assets/image/home/slider3.jpg'
 function About() {
     return (
         <div>
+            <Header />
+
             <div className="About_Top">
                 <div className="background-container">
                     <div className="bg-1" data-aos="fade-right"
@@ -30,6 +33,8 @@ function About() {
             <Director />
             <Counsellors />
             <Testimonials />
+            <Footer />
+
         </div>
     )
 }

@@ -1,8 +1,13 @@
 import React from 'react'
+import Footer from '../Footer'
+import Header from '../Header'
 
 function Exams() {
-  return (
+  return (<>
+    <Header />
     <div>Exams</div>
+    <Footer />
+  </>
   )
 }
 

@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import Footer from '../Footer';
+import Header from '../Header';
 // import "./career.css";
 import PopupCreater from '../PopupCreater';
 import JobForm from './JobForm';
@@ -12,6 +14,7 @@ const Careers = () => {
   }
   return (
     <>
+      <Header />
       <section className='career-banner py-3'>
         <div className="container">
           <h1 className='main-heading'>Join With Us</h1>
@@ -64,7 +67,9 @@ const Careers = () => {
           </div>
         </div>
       </section>
+      <Footer />
       <PopupCreater open={open} onCloseModel={onCloseModel} FormData={JobForm} />
+
 
     </>
   )

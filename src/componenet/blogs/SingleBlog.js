@@ -3,10 +3,12 @@ import blogImage from "../../assets/image/colleges/collegelist1.jpeg"
 import avatar from "../../assets/image/home/testimonial.jpeg"
 import BlogCard from '../home/BlogCard';
 import { Link } from 'react-router-dom';
+import Header from '../Header';
+import Footer from '../Footer';
 
 const SingleBlog = () => {
     return (<>
-
+        <Header />
         <section className='sigle-blog bg-light py-3'>
             <div className="container">
 
@@ -130,6 +132,7 @@ const SingleBlog = () => {
             </div>
 
         </section>
+        <Footer />
     </>
     )
 }

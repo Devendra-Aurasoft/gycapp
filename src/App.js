@@ -31,7 +31,6 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Header />
         <div className='page'>
           <Routes>
             <Route exact path="/" element={<Home />}></Route>
@@ -48,7 +47,6 @@ function App() {
           </Routes>
         </div>
       </Router>
-      <Footer />
       <Style />
       <ScrollButton />
     </div>

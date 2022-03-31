@@ -34,7 +34,7 @@ function Header() {
                         <li>
                             <Link to="/college" className="desktop-link dropdown-toggle">Colleges </Link>
                             <input type="checkbox" id="show-features" />
-                            <label htmlFor="show-features">Features</label>
+                            <label htmlFor="show-features">Colleges</label>
                             <ul>
                                 <li>
                                     <Link to="/" className="desktop-link dropdown-toggle">UG </Link>
@@ -65,7 +65,7 @@ function Header() {
                                 <li>
                                     <Link to="/" className="desktop-link dropdown-toggle"> Items </Link>
                                     <input type="checkbox" id="show-items" />
-                                    <label htmlFor="show-items">More Items</label>
+                                    <label htmlFor="show-items">Items</label>
                                     <ul>
                                         <li><Link to="/">Sub Menu 1</Link></li>
                                         <li><Link to="/">Sub Menu 2</Link></li>
@@ -76,22 +76,11 @@ function Header() {
                         </li>
                         <li>
                             <Link to="/gdpi" className="desktop-link dropdown-toggle">GDPI  </Link>
-                            <input type="checkbox" id="show-services" />
-                            <label htmlFor="show-services">GDPI</label>
+                            <input type="checkbox" id="show-gdpi" />
+                            <label htmlFor="show-gdpi">GDPI</label>
                             <ul>
                                 <li><Link to="/">GD</Link></li>
                                 <li><Link to="/">PI</Link></li>
-                                {/* <li><Link to="/">Drop Menu 3</Link></li> */}
-                                <li>
-                                    <Link to="/" className="desktop-link dropdown-toggle"> Items </Link>
-                                    <input type="checkbox" id="show-items" />
-                                    <label htmlFor="show-items">More Items</label>
-                                    <ul>
-                                        <li><Link to="/">Sub Menu 1</Link></li>
-                                        <li><Link to="/">Sub Menu 2</Link></li>
-                                        <li><Link to="/">Sub Menu 3</Link></li>
-                                    </ul>
-                                </li>
                             </ul>
                         </li>
                         <li><Link to="/blog">Blog</Link></li>
