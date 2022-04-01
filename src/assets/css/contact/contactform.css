@@ -1,0 +1,62 @@
+/*----------------------- Form Css Start --------------------  */
+
+.address-and-form .input-field {
+    width: 75%;
+    margin: auto;
+    height: 44px;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.address-and-form .text-area {
+    height: 100px;
+}
+
+.address-and-form .text-area input {
+    height: 100%;
+}
+
+.address-and-form input::placeholder {
+    color: #fff;
+}
+
+.address-and-form input,
+.address-and-form select {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 0.5rem;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    background-color: #2f2f7c;
+}
+
+.address-and-form .submit-button {
+    width: 100%;
+    color: #ffa500;
+    border: 2px solid #ffa500;
+    margin: auto;
+}
+
+.address-and-form .submit-button:hover {
+    color: #fff;
+    background-color: #ffa500;
+    border-color: #ffa500;
+}
+
+.input-error {
+    border-color: red;
+}
+
+.error {
+    text-align: left;
+    color: red;
+    margin: 0px 10px;
+    width: 100%;
+}
+
+
+/*----------------------- Form Css End --------------------  */

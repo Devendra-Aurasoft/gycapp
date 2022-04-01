@@ -216,6 +216,15 @@ nav .content .links {
 
 .content .links ul li {
     position: relative;
+    border-left: 5px solid transparent;
+}
+
+.content .links ul li:hover {
+    border-left: 5px solid #ffa500;
+}
+
+.content .links ul li:hover>a {
+    color: #ffa500;
 }
 
 .content .links ul li:hover ul {

@@ -18,6 +18,8 @@ import '../assets/css/footer.css';
 import "../assets/css/gdpi/faq.css"
 import "../assets/css/scrollButton.css"
 import "../assets/css/gdpi/herobanner.css"
+import "../assets/css/contact/contact.css"
+import "../assets/css/contact/contactform.css"
 
 
 const Style = () => {

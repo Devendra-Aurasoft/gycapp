@@ -1,0 +1,71 @@
+.contactus {
+    background-color: #000000;
+    position: relative;
+    padding: 10px 0;
+    z-index: -2;
+}
+
+.contactus .hero-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.contactus .hero-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../../image/gdpi/herobanner.jpeg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+.contactus .text-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+.address-and-form {
+    padding: 30px 0;
+}
+
+.address-and-form .address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.address-and-form .address i {
+    color: #2f2f7c;
+    margin-right: 15px;
+    transition: color 0.5s;
+}
+
+.address-and-form .address i:hover {
+    color: #ffa500;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.address-and-form .address span {
+    color: #2f2f7c;
+}
+
+.address-and-form .form {
+    background-color: #2f2f7c;
+    padding: 30px 0;
+}
