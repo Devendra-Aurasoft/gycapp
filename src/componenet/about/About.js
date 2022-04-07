@@ -25,7 +25,7 @@ function About() {
                     </div>
                     <div className="text-container">
                         <h1>About us</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi porro rerum cupiditate expedita <br /> distinctio nisi nulla ipsum libero molestiae minima Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,ipsum libero molestiae</p>
+                        <p>Lorem ipsum dolor,Hello sit amet consectetur adipisicing elit. Eligendi porro rerum cupiditate expedita <br /> distinctio nisi nulla ipsum libero molestiae minima Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,ipsum libero molestiae</p>
                         <button className=" Home_btn">Apply Now</button>
                     </div>
                 </div>
